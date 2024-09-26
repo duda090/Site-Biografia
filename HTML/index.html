@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Website</h1>
+            <nav>
+                <a href="#pessoal">Página Pessoal</a>
+                <a href="#ia">IA</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="pessoal" class="pessoal1">
+            <div class="container">
+                <h1>Bem-vindo à minha Página Pessoal</h1>
+                <img src="eduarda.jpeg" alt="Foto de Perfil" width="300px">
+                <p>Olá! Eu sou a Eduarda e sou Técnica em Informática. Atualmente, trabalho no CPD da Secretaria Municipal de Saúde de Lavras e estou cursando Ánalise e Desenvolvimento de Sistemas no Unilavras.</p>
+                <p>Aprendo rápido e adoro desenvolvimento web. Gosto dos desafios que a tecnologia traz e estou sempre pronta para enfrentar novas oportunidades.</p>
+            </div>
+            <h2>Minhas Áreas de Interesse:</h2>
+                <ul>
+                    <li>Desenvolvimento Web</li>
+                    <li>Segurança da Informação</li>
+                    <li>Inteligência Artificial</li>
+                    <li>Gestão de Projetos</li>
+                </ul>
+        </section>
+  
+        <section id="ia">
+            <div class="container">
+                <h1>Echo Show 10</h1>
+                <div class="alexas">
+                <img src="alexa.jpg" alt="IA" width="300px" height="250px">
+                    <video width="500" height="360"  autoplay loop muted>
+                         <source src="video.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo.
+                     </video>
+                </div>
+                <div class="partedois">
+                    <h1>Desenvolvido para se mover com você</h1>
+                    <video width="700" height="360" autoplay loop muted>
+                         <source src="monitora.mp4" type="video/mp4">Seu navegador não suporta a tag de vídeo.
+                    </video>
+                    <p>Acesse com segurança a câmera integrada para monitorar sua casa, trazendo tranquilidade onde quer que você esteja.</p>
+                </div>
+                <div class="partetres">
+                    <h1>Desenvolvido para proteger sua privacidade</h1>
+                    <img src="seguranca.png" alt="IA" width="500px" height="280px">
+                    <p>O Echo Show 10 foi desenvolvido com múltiplas camadas de privacidade.
+                        Do botão de desligamento do microfone e da tampa embutida para câmera até a possibilidade de
+                        desligar a função de movimento a qualquer instante pelo aplicativo Alexa, por voz, ou no próprio Echo Show.
+                        Vídeo ou imagens coletadas pelo recurso de movimento do Echo Show 10 não são compartilhados fora do dispositivo.</p>                   
+                </div>
+                <p>Confira tudo sobre a Echo Show 10 <a href="https://www.amazon.com.br/Echo-Show-10/dp/B084P4Q85Q/ref=asc_df_B084P4Q85Q/?tag=googleshopp00-20&linkCode=df0&hvadid=709965262043&hvpos=&hvnetw=g&hvrand=1696790106430334693&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9074122&hvtargid=pla-984772692946&psc=1&mcid=883bbfe7cc6b35c78150ced7b21c1b7e&gad_source=1" target="_blank">aqui</a>.</p>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <h1>Entre em Contato</h1>
+                <div class="email">
+                <img src="iconemail.png" alt="Ícone de Email" width="20px">
+                <label for="emailedu">eduardasousati@gmail.com</label>
+                </div>
+                <div class="telefone">
+                <img src="icontelefone.png" alt="Ícone de Telefone" width="20px">
+                <label for="teleoneedu">(35) 99729-7389</label>
+                </div>
+                <form>
+                    <label for="sugestao">Nos mande alguma sugestão!</label>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" cols="40" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Eduarda Andrade de Sousa</p>
+    </footer>
+</body>
+</html>
